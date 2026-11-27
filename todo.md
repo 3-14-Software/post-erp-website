@@ -6,6 +6,8 @@
 - [ ] **Mentions légales** : compléter tous les champs `[À COMPLÉTER]` de `mentions-legales.html` (éditeur, statut, SIRET, adresse, directeur de la publication, hébergeur).
 - [ ] **Politique de confidentialité** : réécrire `politique-de-confidentialite.html`. Le texte actuel est celui généré par Shopify : il décrit une boutique en ligne (commandes, paiements, Shopify), contient une adresse e-mail personnelle et un lien mort « préférences de cookies ».
 
+- [ ] **Retirer la protection par mot de passe** : supprimer `assets/gate.js` et, dans le `<head>` des 4 pages, les deux lignes marquées « protection temporaire » (le script et le `noindex`). Ce n'est qu'une barrière dissuasive : le contenu reste lisible dans le code source et dans le dépôt public.
+
 ## À faire une fois l'adresse du site connue
 
 - [ ] **Image de partage** : déclarer `assets/brand/partage-social-1200x628.png` dans les 4 pages (`og:image` et `twitter:image`, URL absolue obligatoire).
